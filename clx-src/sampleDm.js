@@ -15,7 +15,7 @@ function onBtnAutoFillClick(e){
 	import("./google_ai.js").then(function(module) {
 		var GoogleGenerativeAI = module.GoogleGenerativeAI;
 		var SchemaType = module.SchemaType;
-		var genAI = new GoogleGenerativeAI("AIzaSyAN8UeHL5VAEkhrJNluAtMnIs2591pM8i0");
+		var genAI = new GoogleGenerativeAI("");
 		
 		var dynamicProperties = {}; 
 		
